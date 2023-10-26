@@ -29,8 +29,13 @@
 </head>
 <body>
     <a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
-    <object data="header.html"></object>
-    <object data="nav.html"></object>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#header").load("header.html");
+            $("#nav").load("nav.html");
+        });
+    </script>
     <main id="main-content">
         <h1>Dette kommer til å ta tid!</h1>
     </main>
