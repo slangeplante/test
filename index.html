@@ -4,6 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Testside</title>
+    <style>
+        .skip-link {
+            position: absolute;
+            left: -10000px;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+        }
+
+        .skip-link:focus {
+            left: auto;
+            top: auto;
+            width: auto;
+            height: auto;
+            overflow: visible;
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            z-index: 1000;
+        }
+    </style>
 </head>
 <body>
     <a href="#main-content" class="skip-link">Hopp til hovedinnhold</a>
