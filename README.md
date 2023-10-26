@@ -12,6 +12,6 @@ I'm trying to create my own site??
 # Future tasks
 * Figure out if I need to use JavaScript
 * Figure out when /for what to use JavaScript
-* Fire out how to use JavaScript
+* Figure out how to use JavaScript
 * Figure out when /for what to use Svelte
 * Figure out how to use Svelte
