@@ -9,7 +9,7 @@ I'm trying to create my own site??
 # Next tasks
 * Figure out CSS in general
 
-#Future tasks
+# Future tasks
 * Figure out if I need to use JavaScript
 * Figure out when /for what to use JavaScript
 * Fire out how to use JavaScript
